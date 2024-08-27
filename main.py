@@ -142,12 +142,6 @@ while running:
 
     #Blit is to draw elements to the 'screen'
     screen.blit(displayArea,(center(screen,displayArea)))
-
-
-    #screen.blit(point.surface,(center(screen,point.surface)))
-    
-    
-
     
     #detecting key presses
     keys = pygame.key.get_pressed()
